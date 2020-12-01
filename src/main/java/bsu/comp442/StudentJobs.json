@@ -1,0 +1,122 @@
+[
+  {
+    "title":"Call Center Representative",
+    "description": "Answer phone calls and forward callers to right location.",
+    "contact": "Welcome Center",
+    "jobNumber": 1
+  },
+  {
+    "title":"ECC Dunkin' Donuts Associate",
+    "description": "Crew Members play a vital role in delivering great guest experiences. They prepare products according to operational and quality standards, and serve them with enthusiasm in a clean environment. They work as part of a team to meet our Guests needs and give them a reason to come back ",
+    "contact": "East Campus Commons",
+    "jobNumber": 2
+  },
+  {
+    "title":"Bears Den Dunkin' Donuts Associate",
+    "description": "Crew Members play a vital role in delivering great guest experiences. They prepare products according to operational and quality standards, and serve them with enthusiasm in a clean environment. They work as part of a team to meet our Guests needs and give them a reason to come back",
+    "contact": "Bears Den",
+    "jobNumber": 3
+  },
+  {
+    "title":"Math Tutor",
+    "description": "Math Services tutors provide non-directive online learning support for BSU students taking developmental and Core Curriculum courses in mathematics. Tutors may meet students virtually by appointment and/or on a drop-in basis. Tutors participate in both pre-semester and ongoing training and development to support their practice and professional growth.",
+    "contact": "Testing Services",
+    "jobNumber": 4
+  },
+  {
+    "title":"Java Tutor",
+    "description": "Java tutors provide non-directive online learning support for BSU students taking developmental and Core Curriculum courses in computer science. Tutors may meet students virtually by appointment and/or on a drop-in basis. Tutors participate in both pre-semester and ongoing training and development to support their practice and professional growth.",
+    "contact": "Testing Services",
+    "jobNumber": 5
+  },
+  {
+    "title":"Python Tutor",
+    "description": "Python tutors provide non-directive online learning support for BSU students taking developmental and Core Curriculum courses in computer science. Tutors may meet students virtually by appointment and/or on a drop-in basis. Tutors participate in both pre-semester and ongoing training and development to support their practice and professional growth.",
+    "contact": "Testing Services",
+    "jobNumber": 6
+  },
+  {
+    "title":"IT Associate",
+    "description": "BSU is seeking a part time IT Associate to provide support for BSU’s technology footprint. Position based out of Maxwell Library",
+    "contact": "Maxwell Library - Basement",
+    "jobNumber": 7
+  },
+  {
+    "title":"Maxwell Library Assistant",
+    "description": "Library Assistant will assist BSU in the development and implementation of programs and practices that enhance the educational process and contribute to an effective and successful library and media center.",
+    "contact": "Maxwell Library",
+    "jobNumber": 8
+  },
+  {
+    "title":"RA",
+    "description": "The primary role of the Resident Assistant is to assist, sustain, and nurture the residents that live on Enhanced Living. They provide assistance with activities of daily living, care of the residents environment, and meet other needs as required. The goal of the work of the resident assistant is to promote a high quality of life for the residents. The resident assistant works as a member of a team that seeks to achieve a homelike setting while maintaining excellence in all areas of care.",
+    "contact": "Shea Hall and Durgin Hall",
+    "jobNumber": 9
+  },
+  {
+    "title":"Bridgewater Today Editor",
+    "description": "The ideal candidate is an excellent writer who finds joy in uncovering and telling stories, thinks creatively and collaboratively, and thrives in a fast-paced, innovative and multiplatform digital news operation.",
+    "contact": "Tillinghast Hall",
+    "jobNumber": 10
+  },
+  {
+    "title":"Career Services Assistant",
+    "description": "The Career Services Assistant for BSU is an essential member of the Career Development team working collaboratively and independently to connect BSU with opportunities in this career cluster.",
+    "contact": "Career Services",
+    "jobNumber": 11
+  },
+  {
+    "title":"Fitness Center Attendee",
+    "description": "This individual will look after the main desk. clean equipment, provide clean towels, and keep track of sales.",
+    "contact": "Tinsley Center",
+    "jobNumber": 12
+  },
+  {
+    "title":"Tour Guide",
+    "description": "The Office of Admission is hiring several new tour guides for the 2021 Spring Semester (January - May) and employment may be extended through subsequent semesters. Tour guides are the first impression prospective students and families get of student life at BSU. They receive extensive on-going training in social skills, public speaking and all aspects of our university.",
+    "contact": "Welcome Center",
+    "jobNumber": 13
+  },
+  {
+    "title":"Social Media Manager",
+    "description": "This person will join the BSU communications team and lead and manage all social media communications.",
+    "contact": "Rondileau Campus Center",
+    "jobNumber": 14
+  },
+  {
+    "title":"PAL - Calculus",
+    "description": "This position will be working remotely for the spring 2021 semester. The Mathematics Department is seeking student workers to assist the center in providing the campus community with calculus and calculus II education for the spring semester.",
+    "contact": "DMF",
+    "jobNumber": 15
+  },
+  {
+    "title":"PAL - Computer Science I",
+    "description": "This position will be working remotely for the spring 2021 semester. The Computer Science Department is seeking student workers to assist the center in providing the campus community with computer science I and computer science II education for the spring semester.",
+    "contact": "DMF",
+    "jobNumber": 16
+  },
+  {
+    "title":"Research Intern for Professor Sattar",
+    "description": "Professor Sattar is looking for a student to help him with research regarding a new project.",
+    "contact": "DMF",
+    "jobNumber": 17
+  },
+  {
+    "title":"Mural Painter",
+    "description": "You know that bridge between ECC and the rest of campus? You wanna paint something on the underbridge?",
+    "contact": "Hunt Hall",
+    "jobNumber": 18
+  },
+  {
+    "title":"Bear Statue Painter",
+    "description": "Here at BSU we are proud Bears. And that is why we are personally asking you to help build our community by painting and moving (discretely) our beautiful bear statues around campus.",
+    "contact": "Hunt Hall",
+    "jobNumber": 19
+  },
+  {
+    "title":"Mail Clerk",
+    "description": "Scanning all packages using our tracking system. Driving a mail van if needed, working the customer service window for students and faculty. Other duties as assigned.",
+    "contact": "Welcome Center",
+    "jobNumber": 20
+  }
+]

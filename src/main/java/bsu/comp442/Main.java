@@ -12,7 +12,7 @@ public class Main {
         try {
             final Document document = Jsoup.connect(url).get();
             //for(Element row: document.select())
-            System.out.println(document.outerHtml());
+            //System.out.println(document.outerHtml());
         }catch (Exception e){
             e.printStackTrace();
         }
