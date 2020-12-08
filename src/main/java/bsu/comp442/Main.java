@@ -1,16 +1,27 @@
 package bsu.comp442;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
+import com.google.gson.Gson;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
-public class Main {
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
+import java.util.Random;
+
+public class Main {//I am running all this through main just to test things atm. Once I get things working, I will make a controller
+
 
     public static void main(String[] args)
     {
-        System.out.println("Test");
+        Controller c = new Controller();
+        c.runClass();
     }
 
-
+    public JSONObject getRandomObject(JSONArray jsonArray)
+    {
+        Random random = new Random();
+        return jsonArray.getJSONObject(random.nextInt(jsonArray.length()));
+    }
 
 }
