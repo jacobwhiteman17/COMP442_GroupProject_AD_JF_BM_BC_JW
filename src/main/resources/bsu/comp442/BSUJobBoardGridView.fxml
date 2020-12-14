@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="771.0" prefWidth="1156.0" style="-fx-background-color: #A42C2C;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bsu.comp442.GridController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="722.0" prefWidth="1116.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button fx:id="refresh" layoutX="38.0" layoutY="677.0" mnemonicParsing="false" onAction="#refreshPressed" prefHeight="61.0" prefWidth="136.0" text="Refresh Jobs">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="listview" layoutX="975.0" layoutY="677.0" mnemonicParsing="false" onAction="#listviewPressed" prefHeight="61.0" prefWidth="136.0" text="List View">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <TitledPane id="job1" fx:id="job1" animated="false" layoutX="38.0" layoutY="93.0" prefHeight="266.0" prefWidth="298.0" text="Library Assistant">
+              <content>
+                <AnchorPane id="job1" minHeight="0.0" minWidth="0.0" prefHeight="182.0" prefWidth="298.0">
+                     <children>
+                        <Text id="desc1" fx:id="desc1" layoutX="14.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library assistants help to keep libraries organized and efficient while assisting patrons as necessary. They typically assist patrons with checking materials in and out and sometimes with locating materials." textAlignment="CENTER" wrappingWidth="285.02734375">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </TitledPane>
+            <TitledPane id="job2" fx:id="job2" animated="false" layoutX="429.0" layoutY="93.0" prefHeight="266.0" prefWidth="298.0" text="IT Desk">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="182.0" prefWidth="298.0">
+                     <children>
+                        <Text id="desc2" fx:id="desc2" layoutX="8.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help desk support specialists arethe go-to people for providing technical assistance and support related to computer systems, hardware, and software." textAlignment="CENTER" wrappingWidth="279.02734375">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+            <TitledPane id="job3" fx:id="job3" animated="false" layoutX="813.0" layoutY="93.0" prefHeight="266.0" prefWidth="298.0" text="Dining Hall Assistant">
+               <content>
+                  <AnchorPane fx:id="rootPane" minHeight="0.0" minWidth="0.0" prefHeight="182.0" prefWidth="298.0">
+                     <children>
+                        <Text id="desc3" fx:id="desc3" layoutX="5.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Duties will include prepping meals by weighing, measuring,and mixing ingredients, cookingmeals, checking ingredients forfreshness, and arranging andgarnishing the dishes." textAlignment="CENTER" wrappingWidth="285.02734375">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+            <TitledPane id="job4" fx:id="job4" animated="false" layoutX="38.0" layoutY="386.0" prefHeight="266.0" prefWidth="298.0" text="Stage Crew Assistant">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="182.0" prefWidth="298.0">
+                     <children>
+                        <Text id="desc4" fx:id="desc4" layoutX="5.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Responsibilities include costumeand set design, installing lights,rigging, sound equipment, andscenery, and set building forevents in parks, stadiums, arenaand other places." textAlignment="CENTER" wrappingWidth="285.02734375">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+            <TitledPane id="job5" fx:id="job5" animated="false" layoutX="429.0" layoutY="386.0" prefHeight="266.0" prefWidth="298.0" text="ACC Tutor">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="182.0" prefWidth="298.0">
+                     <children>
+                        <Text id="desc5" fx:id="desc5" layoutX="5.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maintains a growth mindset toward student learning and teaching practice. Facilitates problem-solving with a curiousmind and critical thinking skills.Serves as a role-model forstudents" textAlignment="CENTER" wrappingWidth="285.02734375">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+            <TitledPane id="job6" fx:id="job6" animated="false" layoutX="813.0" layoutY="386.0" prefHeight="266.0" prefWidth="298.0" text="Custodial">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="182.0" prefWidth="298.0">
+                     <children>
+                        <Text id="desc6" fx:id="desc6" layoutX="5.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cleaning and maintaining floors(sweeping, mopping, vacuumingwaxing, stripping, buffing andpolishing) Scrubbing andsanitizing restroom facilities.Removing snow and ice fromwalkways and parking lots" textAlignment="CENTER" wrappingWidth="285.02734375">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+            <Text fill="WHITE" layoutX="454.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BSU JOB BOARD">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="67.0" fitWidth="63.0" layoutX="366.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@BSU_Bear.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="120.0" fitWidth="63.0" layoutX="721.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@BSU_Bear.png" />
+               </image>
+            </ImageView>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

@@ -1,27 +1,32 @@
 package bsu.comp442;
 
-import com.google.gson.Gson;
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.io.FileReader;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 import java.io.IOException;
-import java.io.Reader;
-import java.util.Random;
 
-public class Main {//I am running all this through main just to test things atm. Once I get things working, I will make a controller
+public class Main extends Application {
 
 
     public static void main(String[] args)
     {
-        Controller c = new Controller();
-        c.runClass();
+        launch(args);
     }
 
-    public JSONObject getRandomObject(JSONArray jsonArray)
-    {
-        Random random = new Random();
-        return jsonArray.getJSONObject(random.nextInt(jsonArray.length()));
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        Parent root = null;
+        var loc = getClass().getResource("/bsu/comp442/BSUJobBoardGridView.fxml");//this was a PAIN to figure out. couldn't find the file for a long time
+        try {
+            root = FXMLLoader.load(loc);
+        }catch (IOException e){
+            System.out.println("Couldn't Find FXML file");
+        }
+        Scene windowContents = new Scene(root, 1200,800);
+        primaryStage.setScene(windowContents);
+        primaryStage.setTitle("BSU Job Board");
+        primaryStage.show();//setting the stage
     }
-
 }

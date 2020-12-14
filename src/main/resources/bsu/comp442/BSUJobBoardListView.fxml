@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="771.0" prefWidth="1156.0" style="-fx-background-color: #A42C2C;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bsu.comp442.ListController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="722.0" prefWidth="1116.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button fx:id="listviewRefresh" layoutX="38.0" layoutY="677.0" mnemonicParsing="false" onAction="#listviewRefreshPressed" prefHeight="61.0" prefWidth="136.0" text="Refresh Jobs">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="listviewGridview" layoutX="975.0" layoutY="677.0" mnemonicParsing="false" onAction="#listviewGridViewPressed" prefHeight="61.0" prefWidth="136.0" text="Grid View">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="454.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BSU JOB BOARD">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Text>
+            <Label id="job1" fx:id="listJob1" layoutX="14.0" layoutY="77.0" prefHeight="91.0" prefWidth="362.0" text="Library Assistant" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Text id="desc1" fx:id="listDesc1" fill="WHITE" layoutX="388.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library assistants help to keep libraries organized and efficient while assisting patrons as necessary. They typically assist patrons with checking materials in and out and sometimes with locating materials." wrappingWidth="753.02734375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Label id="job2" fx:id="listJob2" layoutX="14.0" layoutY="168.0" prefHeight="91.0" prefWidth="362.0" text="IT Desk" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Text id="desc2" fx:id="listDesc2" fill="WHITE" layoutX="388.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help desk support specialists arethe go-to people for providing technical assistance and support related to computer systems, hardware, and software." wrappingWidth="753.02734375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Line endX="919.0" layoutX="248.0" layoutY="168.0" startX="-247.5" />
+            <Line endX="924.0" layoutX="238.0" layoutY="254.0" startX="-232.0" />
+            <Label id="job3" fx:id="listJob3" layoutX="14.0" layoutY="259.0" prefHeight="91.0" prefWidth="362.0" text="Dining Hall Assistant" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Text id="desc3" fx:id="listDesc3" fill="WHITE" layoutX="388.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Duties will include prepping meals by weighing, measuring,and mixing ingredients, cookingmeals, checking ingredients forfreshness, and arranging andgarnishing the dishes." wrappingWidth="753.02734375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Line endX="924.0" layoutX="237.0" layoutY="350.0" startX="-232.0" />
+            <Label id="job4" fx:id="listJob4" layoutX="14.0" layoutY="358.0" prefHeight="91.0" prefWidth="362.0" text="Stage Crew Assistant" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Text id="desc4" fx:id="listDesc4" fill="WHITE" layoutX="388.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Responsibilities include costumeand set design, installing lights,rigging, sound equipment, andscenery, and set building forevents in parks, stadiums, arenaand other places." wrappingWidth="753.02734375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Line endX="924.0" layoutX="234.0" layoutY="449.0" startX="-237.0" />
+            <Label id="job5" fx:id="listJob5" layoutX="14.0" layoutY="453.0" prefHeight="91.0" prefWidth="362.0" text="ACC Tutor" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Text id="desc5" fx:id="listDesc5" fill="WHITE" layoutX="388.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maintains a growth mindset toward student learning and teaching practice. Facilitates problem-solving with a curiousmind and critical thinking skills.Serves as a role-model forstudents" wrappingWidth="753.02734375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Line endX="924.0" layoutX="239.0" layoutY="544.0" startX="-237.0" />
+            <Label id="job6" fx:id="listJob6" layoutX="14.0" layoutY="548.0" prefHeight="91.0" prefWidth="362.0" text="Custodial" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Text id="desc6" fx:id="listDesc6" fill="WHITE" layoutX="388.0" layoutY="575.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cleaning and maintaining floors(sweeping, mopping, vacuumingwaxing, stripping, buffing andpolishing) Scrubbing andsanitizing restroom facilities.Removing snow and ice fromwalkways and parking lots" wrappingWidth="753.02734375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+          <ImageView fitHeight="67.0" fitWidth="63.0" layoutX="366.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@BSU_Bear.png" />
+              </image>
+          </ImageView>
+          <ImageView fitHeight="120.0" fitWidth="63.0" layoutX="721.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@BSU_Bear.png" />
+              </image>
+          </ImageView>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

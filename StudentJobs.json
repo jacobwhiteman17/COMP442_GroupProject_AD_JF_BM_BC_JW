@@ -19,25 +19,25 @@
   },
   {
     "title":"Math Tutor",
-    "description": "Math Services tutors provide non-directive online learning support for BSU students taking developmental and Core Curriculum courses in mathematics. Tutors may meet students virtually by appointment and/or on a drop-in basis. Tutors participate in both pre-semester and ongoing training and development to support their practice and professional growth.",
+    "description": "Math Services tutors provide non-directive online learning support for BSU students taking developmental and Core Curriculum courses in mathematics. Tutors may meet students virtually by appointment and/or on a drop-in basis.",
     "contact": "Testing Services",
     "jobNumber": 4
   },
   {
     "title":"Java Tutor",
-    "description": "Java tutors provide non-directive online learning support for BSU students taking developmental and Core Curriculum courses in computer science. Tutors may meet students virtually by appointment and/or on a drop-in basis. Tutors participate in both pre-semester and ongoing training and development to support their practice and professional growth.",
+    "description": "Java tutors provide non-directive online learning support for BSU students taking developmental and Core Curriculum courses in computer science. Tutors may meet students virtually by appointment and/or on a drop-in basis.",
     "contact": "Testing Services",
     "jobNumber": 5
   },
   {
     "title":"Python Tutor",
-    "description": "Python tutors provide non-directive online learning support for BSU students taking developmental and Core Curriculum courses in computer science. Tutors may meet students virtually by appointment and/or on a drop-in basis. Tutors participate in both pre-semester and ongoing training and development to support their practice and professional growth.",
+    "description": "Python tutors provide non-directive online learning support for BSU students taking developmental and Core Curriculum courses in computer science. Tutors may meet students virtually by appointment and/or on a drop-in basis.",
     "contact": "Testing Services",
     "jobNumber": 6
   },
   {
     "title":"IT Associate",
-    "description": "BSU is seeking a part time IT Associate to provide support for BSU’s technology footprint. Position based out of Maxwell Library",
+    "description": "BSU is seeking a part time IT Associate to provide support for our technology footprint. Position based out of Maxwell Library",
     "contact": "Maxwell Library - Basement",
     "jobNumber": 7
   },
@@ -49,7 +49,7 @@
   },
   {
     "title":"RA",
-    "description": "The primary role of the Resident Assistant is to assist, sustain, and nurture the residents that live on Enhanced Living. They provide assistance with activities of daily living, care of the residents environment, and meet other needs as required. The goal of the work of the resident assistant is to promote a high quality of life for the residents. The resident assistant works as a member of a team that seeks to achieve a homelike setting while maintaining excellence in all areas of care.",
+    "description": "The primary role of the Resident Assistant is to assist, sustain, and nurture the residents that live on Enhanced Living. They provide assistance with activities of daily living, care of the residents environment, and meet other needs as required. The goal of the work of the resident assistant is to promote a high quality of life for the residents.",
     "contact": "Shea Hall and Durgin Hall",
     "jobNumber": 9
   },
@@ -73,7 +73,7 @@
   },
   {
     "title":"Tour Guide",
-    "description": "The Office of Admission is hiring several new tour guides for the 2021 Spring Semester (January - May) and employment may be extended through subsequent semesters. Tour guides are the first impression prospective students and families get of student life at BSU. They receive extensive on-going training in social skills, public speaking and all aspects of our university.",
+    "description": "The Office of Admission is hiring several new tour guides for the 2021 Spring Semester (January - May) and employment may be extended through subsequent semesters. Tour guides are the first impression prospective students and families get of student life at BSU. ",
     "contact": "Welcome Center",
     "jobNumber": 13
   },
