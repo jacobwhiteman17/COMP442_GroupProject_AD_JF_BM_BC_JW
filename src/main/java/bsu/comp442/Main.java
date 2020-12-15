@@ -18,7 +18,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = null;
-        var loc = getClass().getResource("/bsu/comp442/BSUJobBoardGridView.fxml");//this was a PAIN to figure out. couldn't find the file for a long time
+        var loc = getClass().getResource("/bsu/comp442/BSUJobBoardGridView.fxml");
         try {
             root = FXMLLoader.load(loc);
         }catch (IOException e){
